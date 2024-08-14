@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./indec.css">
+    <link rel="icon" href="./favicon-32x32.png">
+    <title>Basic Calculator</title>
+
+</head>
+<body>
+    <div class="container">
+        <div class="cal-body">
+            <table>
+               <tbody>
+                <tr>
+                    <td colspan="4"><input id="display" type="text" value="0"></td>
+                </tr> 
+                <tr>
+                    <td><button>mc</button></td>
+                    <td><button >mr</button></td>
+                    <td><button class="first-row-btns m--btn">m-</button></td>
+                    <td><button class="first-row-btns m-plus-btn">m+</button></td>
+                </tr>
+                <tr>
+                    <td><button id="AC" class="first-row-btns AC-btn">AC</button></td>
+                    <td><button class="first-row-btns root-btn">√x</button></td>
+                    <td><button class="first-row-btns percent-btn">%</button></td>
+                    <td><button class="first-row-btns div-btn">÷</button></td>
+                </tr>
+                <tr>
+                    <td><button class="btns789 btns789-size1">7</button></td>
+                    <td><button class="btns789 btns789-size2">8</button></td>
+                    <td><button class="btns789 btns789-size3">9</button></td>
+                    <td><button class="btns789 btns789-size4 div-btn">×</button></td>
+                </tr>
+                <tr>
+                    <td><button class="btns789 btns789-size1">4</button></td>
+                    <td><button class="btns789 btns789-size2">5</button></td>
+                    <td><button class="btns789 btns789-size3">6</button></td>
+                    <td><button class="minus-btn">-</button></td>
+                </tr>
+                <tr>
+                    <td><button class="btns789 btns789-size1">1</button></td>
+                    <td><button class="btns789 btns789-size2">2</button></td>
+                    <td><button class="btns789 btns789-size3">3</button></td>
+                    <td><button class="btns789 btns789-size4 div-btn">+</button></td>
+                </tr>
+                <tr>
+                    <td><button class="btns789 btns789-size1">0</button></td>
+                    <td><button class="btns789 dot-btn">.</button></td>
+                    <td><button class="btns789 plus-minus-btn">+/-</button></td>
+                    <td><button class="btns789 btns789-size4 equal-btn">=</button></td>
+                </tr>
+                <tr>
+                    <td><button class="first-row-btns pi-btn">π</button></td>
+                    <td><button class="first-row-btns x-power-y"> <sub class="x">x</sub> <sup class="super-y">y</sup></button></td>
+                    <td><button class="first-row-btns R2">R2</button></td>
+                    <td><button class="first-row-btns R0">R0</button></td>
+                </tr>
+               </tbody>
+            </table>
+               
+        </div>
+    </div>
+
+
+    <script src="./code.js">
+      
+
+      
+        // var btns = document.querySelectorAll("table button");
+        // var lastOperatorBtn = null;
+        // btns.forEach(btn =>{
+        //     console.log(`Button text: '${btn.textContent}'`); // Log the button's text to check it
+
+        //     btn.addEventListener('click', ()=>{
+        //         let display = document.getElementById("display");
+
+        //         if(display.value == 0){
+        //             display.value ="";
+        //         }
+
+        //         if(!isNaN(btn.textContent)){
+        //            display.value +=btn.textContent;
+        //            document.getElementById("AC").textContent = "CE";
+
+        //     }
+
+        //     else if (btn.textContent == ".") {
+        //         let currentValue = display.value;
+        //         let lastChar = currentValue.slice(-1);
+
+        //         // If the display is empty or the last character is an operator, start with "0."
+        //         if (currentValue == "" || isOper(lastChar)) {
+        //             display.value += "jawad";
+        //         }
+        //         // Prevent adding multiple decimal points to the current number
+        //         else {
+        //             let lastNumber = currentValue.split(/[\+\-\×\÷]/).pop();
+        //             if (!lastNumber.includes(".")) {
+        //                 display.value += ".";
+        //             }
+        //         }
+        //     }
+        //     else if(btn.textContent == "CE"){
+        //          display.value ="0";
+        //          document.getElementById("AC").textContent = "AC";
+        //     }
+
+            
+        //     if(isOper(btn.textContent)){
+               
+        //         if (lastOperatorBtn) {
+        //         lastOperatorBtn.style.backgroundColor = "";
+        //     }
+        //   if(btn.textContent != "="){
+        //     btn.style.backgroundColor = "#FAFAFA";
+        //     lastOperatorBtn = btn;
+        //   }
+           
+            
+
+        //     }
+            
+        //     })
+        // })
+
+        // function isOper(value){
+        //     const operators = ["+", "-", "×", "÷","="];
+        // return operators.includes(value);
+    //    }
+    </script>
+</body>
+</html>

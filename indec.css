@@ -1,0 +1,173 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+.cal-body{
+    border: 1px solid #999999;
+    background-color: #f0f0f0;
+    height: 600px;
+    width: 24%;
+    border-radius: 10px;
+}
+
+table td input{
+  padding: 20px 0 20px 67px;
+  text-align: right;
+  font-size: 24px;
+    
+}
+table{
+    padding: 15px 10px;
+}
+
+table tr:nth-child(2) button{
+    background-color: #DDDDDD;
+    border: 1px solid #CCCCCC;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #444444;
+    padding: 10px 24px;
+    margin-top: 8px;
+}
+
+table tr:nth-child(2) button:active{
+  background-color: #f0f0f0;
+}
+.first-row-btns{
+    background-color: #DDDDDD;
+    border: 1px solid #CCCCCC;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #444444;
+   
+}
+
+.AC-btn{
+    padding: 12px 20.2px;
+    font-size: 24px;
+}
+.root-btn{
+    padding: 12px 22px;
+    font-size: 25px;
+}
+.percent-btn{
+    padding: 12px 24.2px;
+    font-size: 25px;
+}
+.div-btn{
+    padding: 11px 31px;
+    background-color: #FFCC00;
+    font-size: 25px;
+    color: #333333;
+    font-weight: bold;
+}
+.equal-btn{
+    padding: 11px 31px;
+    background-color: #FFCC00;
+    font-size: 25px;
+    color: #333333;
+    font-weight: bold;
+}
+.minus-btn{
+    padding: 8px 32px;
+    background-color: #FFCC00;
+    font-size: 30px;
+    color: #333333;
+    font-weight: bold;
+    border: 1px solid #CCCCCC;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.div-btn:hover{
+   background-color: #FAFAFA;
+   transition: .4s ease-in;
+   border-color: black;
+}
+.equal-btn:active{
+    background-color: #FAFAFA;
+    border-color: black;
+
+}
+.minus-btn:hover{
+    background-color: #FAFAFA;
+    transition: .4s ease-in;
+    border-color: black;
+ }
+
+.first-row-btns:active{
+  background-color: #f0f0f0;
+}
+
+
+.btns789{
+    border: 1px solid #CCCCCC;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #333333;
+    font-weight: bold;
+    font-size: 24px;
+
+}
+.btns789-size1{
+    padding: 12px 30px;
+    background-color: #FAFAFA;
+}
+.btns789-size2{
+    padding: 12px 28.3px;
+    background-color: #FAFAFA;
+
+}
+.btns789-size3{
+    padding: 12px 29px;
+    background-color: #FAFAFA;
+
+}
+.btns789-size4{
+    padding: 12px 30px;
+}
+
+.btns789:active{
+    background-color: #f0f0f0;
+
+}
+.dot-btn{
+    padding: 12px 31px;
+    background-color: #FAFAFA;
+
+}
+.plus-minus-btn{
+    padding: 12px 21px;
+    background-color: #FAFAFA;
+}
+.last-row-btn{
+    border: 1px solid #CCCCCC;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #333333;
+    font-size: 24px;
+}
+.pi-btn{
+    padding: 12px 27.4px;
+    font-size: 24px;
+
+}
+.x{
+    font-size: 26px;
+}
+.super-y{
+    font-size: 23px;
+    
+}
+
+.x-power-y{
+    padding: 8.8px 20.3px;
+}
+.R2{
+    padding: 12px 19px;
+    font-size: 25px;
+}
+.R0{
+    padding: 12px 20.4px;
+    font-size: 25px;
+}
